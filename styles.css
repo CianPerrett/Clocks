@@ -105,6 +105,7 @@ span {
   transform-origin: 50% 150px;
 }
 .diallines:nth-of-type(5n) {
+  /*makes sure that every five clockhands the dials are bigger and silver*/
   position: absolute;
   z-index: 5;
   width: 4px;
@@ -136,8 +137,8 @@ span {
   left: 50%;
 }
 .date {
-  top: 80px;
+  top: 80px; /* sets where the date componet is located on the clock*/
 }
 .day {
-  top: 200px;
+  top: 200px; /* sets where the top componet is located on the clock*/
 }
